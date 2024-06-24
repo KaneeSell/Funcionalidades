@@ -8,7 +8,6 @@ margin: 15px;
 header{
     background-color: #cac8c800;
     padding: 0px 0px 0px 0px;
-    margin: 0px 150px 0px 150px;
 }
 h1{
     font-family: "Lilita One", sans-serif;
@@ -21,10 +20,13 @@ h1{
 nav{
     background-color: #cac8c800;
     padding: 5px 0px 5px 0px;
-    margin: -15px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
     line-height: 35px;
 }
 p.bnav{
+    background-color: #cac8c800;
+    margin: 0px 0px 0px 0px;
+    line-height: 35px;
     cursor: context-menu;
     display: inline-block;
 }
