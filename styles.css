@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+body{
+text-align: center;
+background-color: gray;
+margin: 15px;
+}
+header{
+    background-color: #cac8c800;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 150px 0px 150px;
+}
+h1{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin: 0px 10px 0px 10px;
+    background-color: #cac8c8;
+}
+nav{
+    background-color: #cac8c800;
+    padding: 5px 0px 5px 0px;
+    margin: -15px 0px 10px 0px;
+    line-height: 35px;
+}
+p.bnav{
+    cursor: context-menu;
+    display: inline-block;
+}
+a{
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    padding: 2px;
+    color: #ffffff;
+    background-color: #74bdd5;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0px 5px 0px 5px;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    background-color: #409dbd;
+    transform: scale(1.5);
+}
+a.desativado, a.desativado:hover{
+    background-color: #409dbd;
+    color: #000000;
+    cursor: context-menu;
+}
+main{
+    background-color: #cac8c8;
+    padding: 20px 40px 20px 40px;
+}
+footer{
+    background-color: #cac8c8;
+}
