@@ -5,7 +5,7 @@ textarea{
     text-align: center;
     background-color: rgb(255, 255, 255);
     resize: none;
-    pointer-events:all;
+    pointer-events:none;
     font-weight: 400;
     margin: 3px 0px 0px 0px;
     border-radius: 5px;
@@ -36,11 +36,12 @@ label{
 }
 .botao{
     padding: 5px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 8px;
     color: #ffffff;
-    background-color: #74bdd5;
-    border: solid 0.2px black;
-    border-radius: 12px;
-    box-shadow: 1px 1px 3px black;
+    background-color: rgb(49, 39, 115, 0.7);
+    box-shadow: 1px 1px 3px 0px black;
+    text-shadow: 1px 1px 3px #000000c7;
 }
 .botao:hover{
     color: #dfd985;
