@@ -16,6 +16,10 @@ h1{
     font-size: 40px;
     margin: 0px 10px 0px 10px;
     background-color: #cac8c8;
+    display: inline-flex;
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 0px black;
 }
 nav{
     background-color: #cac8c800;
@@ -39,9 +43,10 @@ a{
     font-weight: 600;
     text-decoration: none;
     margin: 0px 5px 0px 5px;
+    box-shadow: 1px 1px 3px 0px black;
 }
 a:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(223, 217, 133);
     background-color: #409dbd;
     transform: scale(1.5);
 }
@@ -49,11 +54,17 @@ a.desativado, a.desativado:hover{
     background-color: #409dbd;
     color: #000000;
     cursor: context-menu;
+    box-shadow: inset 1px 1px 3px black;
 }
 main{
     background-color: #cac8c8;
     padding: 20px 40px 20px 40px;
+    align-items: center;
+    text-align: center;
 }
 footer{
+    display: inline-block;
     background-color: #cac8c8;
+    margin: 30px 0px 0px 0px;
+    padding: 5px 100px 5px 100px;
 }

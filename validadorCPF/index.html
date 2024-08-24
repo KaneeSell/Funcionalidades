@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="./extra.css">
+</head>
+<body>
+    <header>
+        <h1>ValidadorCPF</h1>
+    </header>
+    <nav>
+        <a href="../index.html">Principal</a>
+        |
+        <a class="desativado" href="#">ValidadorCPF</a>
+        <a href="#">Horarios</a>
+        <a href="#">Link</a>
+        <a href="../exemplos/index.html">Exemplos</a>
+    </nav>
+    <main>
+        <h2>Validador de CPF</h2>
+        <label for="label">Didite o CPF:</label>
+        <input type="text" id="cpf" maxlength="14" oninput="mascararCPF()">
+        <button id="submit" onclick="validar()">Confirmar</button><br>
+        <textarea name="log" id="registro" rows="5" cols="19">Registro:</textarea>
+    </main>
+    <footer>
+        <p>Criado por kanee Sell</p>
+    </footer>
+</body>
+<script src="./validador.js"></script>
+</html>
