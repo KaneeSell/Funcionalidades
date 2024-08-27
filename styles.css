@@ -7,8 +7,8 @@ background-color: gray;
 margin: 15px;
 background-repeat: no-repeat;
 background-image: linear-gradient(45deg, rgb(167, 66, 255), rgb(0, 0, 0));
-background-size: 120% 200%;
-font-family: "Chakra Petch", sans-serif;
+background-size: 120% 80em;
+font-family: "Lilita One", sans-serif;
 font-weight: 400;
 font-style: normal;
 }
@@ -28,7 +28,7 @@ h1{
     border-radius: 10px;
     box-shadow: 1px 1px 3px 0px black;
     pointer-events:none;
-    text-shadow: 1px px 2px white;
+    text-shadow: 1px 1px 2px white;
 }
 h2{
     font-family: "Lilita One", sans-serif;
@@ -40,6 +40,9 @@ nav{
     padding: 5px 0px 5px 0px;
     margin: 0px 0px 0px 0px;
     line-height: 35px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 p.bnav{
     background-color: #cac8c800;
@@ -51,7 +54,7 @@ p.bnav{
 .navegacao, .desativado{
     border: 2px solid rgba(0, 0, 0, 0);
     border-radius: 8px;
-    padding: 2px;
+    padding: 0px 3px 0px 3px;
     color: #ffffff;
     background-color: rgb(49, 39, 115, 0.7);
     font-weight: 600;
@@ -59,17 +62,25 @@ p.bnav{
     margin: 0px 5px 0px 5px;
     box-shadow: 1px 1px 3px 0px black;
     text-shadow: 1px 1px 3px #000000c7;
+    display: inline-block;
+}
+.navegacao{
+    transform: scale(1);
+    transition: 0.5s;
+}
+.navegacao:hover{
+    transform: scale(1.2);
 }
 a:hover{
     color: #dfd985;
     background-color: rgb(81, 68, 166, 0.7);
-    transform: scale(1.5);
 }
 a.desativado, a.desativado:hover{
     background-color: rgb(81, 68, 166, 0.7);
     color: #000000;
     cursor: context-menu;
     box-shadow: inset 1px 1px 3px black;
+
 }
 main{
     background-color: #cac8c8;
@@ -80,6 +91,9 @@ main{
     border-radius: 10px;
     max-width: 50em;
     display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 footer{
     display: inline-block;
@@ -87,4 +101,21 @@ footer{
     padding: 5px 100px 5px 100px;
     background-color: rgb(49, 39, 115, 0.7);
     border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.link{
+    text-decoration: none;
+    color: #6904e4;
+    font-size: large;
+    display: block;
+    background: linear-gradient(to right, #822cea, #2e0065);
+    -webkit-background-clip: text;
+    color: transparent;
+    transform: scale(1);
+    transition: 1s;
+}
+.link:hover{
+    transform: scale(1.3);
 }

@@ -1,12 +1,26 @@
-.link-page{
+.botao{
+    padding: 5px;
     border: 2px solid rgba(0, 0, 0, 0);
     border-radius: 8px;
-    padding: 2px;
     color: #ffffff;
     background-color: rgb(49, 39, 115, 0.7);
-    font-weight: 600;
-    text-decoration: none;
-    margin: 0px 5px 0px 5px;
     box-shadow: 1px 1px 3px 0px black;
     text-shadow: 1px 1px 3px #000000c7;
+    text-decoration: none;
+}
+.botao:hover{
+    color: #dfd985;
+}
+.botao:active{
+    box-shadow: inset 1px 1px 2px black;
+    color: black;
+}
+.ico-contato{
+    display: inline-block;
+    margin: 0px 5px -3px 0px;
+    transform: scale(1);
+    transition: 0.5s;
+}
+.botao:hover > .ico-contato{
+    transform: scale(1.3);
 }

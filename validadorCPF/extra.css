@@ -33,6 +33,9 @@ label{
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 .botao{
     padding: 5px;
