@@ -4,31 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../icons/kanee.ico" type="image/x-icon">
-    <title>Menu</title>
+    <title>Calculadora</title>
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="./extra.css">
 </head>
 <body>
     <header>
         <h1>Calculadora</h1>
+        <nav>
+            <a class="navegacao" href="../index.html">Principal</a>
+            |
+            <a class="navegacao" href="../validadorCPF/index.html">ValidadorCPF</a>
+            <a class="desativado" href="../calculadora/index.html">Calculadora</a>
+            <a class="navegacao" href="../calendario/index.html">Calendario</a>
+            <a class="navegacao" href="../exemplos/index.html">Exemplos</a>
+        </nav>
     </header>
-    <nav>
-        <a class="navegacao" href="../index.html">Principal</a>
-        |
-        <a class="navegacao" href="../validadorCPF/index.html">ValidadorCPF</a>
-        <a class="desativado" href="../calculadora/index.html">Calculadora</a>
-        <a class="navegacao" href="../calendario/index.html">Calendario</a>
-        <a class="navegacao" href="../exemplos/index.html">Exemplos</a>
-    </nav>
     <main>
-        <h2>Calculadora</h2>
-        <input type="Number" id="resultado">
-        
+        <input type="text" id="visorLogNum" value="calculadora" disabled><br>
+        <input type="text" id="visorLogOP" value="" disabled><br>
+        <input type="text" id="visor" disabled><br>
+            <p onclick="apagar(event, 'all')" class="btn-calc bnt-clear clear-all">c</p>
+            <p onclick="apagar(event)" class="btn-calc bnt-clear">ce</p>
+            <br>
+            <p onclick="adicionar(7, event)" class="btn-calc" >7</p>
+            <p onclick="adicionar(8, event)" class="btn-calc">8</p>
+            <p onclick="adicionar(9, event)" class="btn-calc">9</p>
+            <p onclick="divisao(event)" class="btn-calc">÷</p><br>
+            <p onclick="adicionar(4, event)" class="btn-calc">4</p>
+            <p onclick="adicionar(5, event)" class="btn-calc">5</p>
+            <p onclick="adicionar(6, event)" class="btn-calc">6</p>
+            <p onclick="multiplicacao(event)" class="btn-calc">x</p><br>
+            <p onclick="adicionar(1, event)" class="btn-calc">1</p>
+            <p onclick="adicionar(2, event)" class="btn-calc">2</p>
+            <p onclick="adicionar(3, event)" class="btn-calc">3</p>
+            <p onclick="subtracao(event)" class="btn-calc">-</p><br>
+            <p onclick="adicionar(0, event)" class="btn-calc">0</p>
+            <p onclick="adicionar('.', event)" class="btn-calc">.</p>
+            <p onclick="igual(event)" class="btn-calc bnt-igual">=</p>
+            <p onclick="soma(event)" class="btn-calc">+</p>
     </main>
     <br>
     <footer>
         <p>Criado por <a class="link" href="https://github.com/KaneeSell" title="GitHub">Kanee Sell</a></p>
     </footer>
 </body>
-<script src="./validador.js"></script>
+<script src="./calculadora.js"></script>
 </html>

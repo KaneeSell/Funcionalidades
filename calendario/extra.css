@@ -1,0 +1,39 @@
+.painel{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    justify-content: center;
+    margin: 0px auto;
+    gap: 3px;
+
+}
+.semana{
+    flex: 1 1 calc(100% / 10);
+    display: flex;
+    flex-flow: row wrap;
+    padding: 5px 5px 5px 5px;
+    gap: 2px;
+}
+.dia{
+    flex: 1 1 calc(100% / 7);
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    flex-flow: column wrap;
+    background-color: aquamarine;
+    width: 35px;
+    box-sizing: border-box;
+}
+.diaBtn{
+    display: flex;
+    justify-content: center;
+    margin: 2px 1px;
+    background-color: rgb(146, 248, 73);
+    border-radius: 8px;
+}
+.diaBtn:hover{
+    background-color: rgb(133, 255, 46);
+}
+.semDia{
+    padding: 25px;
+}

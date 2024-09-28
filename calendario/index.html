@@ -10,24 +10,36 @@
 </head>
 <body>
     <header>
-        <h1>Calculadora</h1>
+        <h1>Calendário</h1>
+        <nav>
+            <a class="navegacao" href="../index.html">Principal</a>
+            |
+            <a class="navegacao" href="../validadorCPF/index.html">ValidadorCPF</a>
+            <a class="navegacao" href="../calculadora/index.html">Calculadora</a>
+            <a class="desativado" href="../calendario/index.html">Calendario</a>
+            <a class="navegacao" href="../exemplos/index.html">Exemplos</a>
+        </nav>
     </header>
-    <nav>
-        <a class="navegacao" href="../index.html">Principal</a>
-        |
-        <a class="navegacao" href="../validadorCPF/index.html">ValidadorCPF</a>
-        <a class="navegacao" href="../calculadora/index.html">Calculadora</a>
-        <a class="desativado" href="../calendario/index.html">Calendario</a>
-        <a class="navegacao" href="../exemplos/index.html">Exemplos</a>
-    </nav>
-    <main>
-        <h2>Calendario</h2>
-        
+    <main id="painel">
+        <div id="dataDeHoje"></div>
+        <div id="calendario"></div>
+        <div class="semana">
+            <div class="dia"><button class="diaBtn">+</button><div class="semDia"></div></div>
+            <div class="dia"><button class="diaBtn">+</button><div class="semDia"></div></div>
+            <div class="dia"><button class="diaBtn">+</button><div class="semDia"></div></div>
+            <div class="dia"><button class="diaBtn">+</button><div class="semDia"></div></div>
+            <div class="dia"><button class="diaBtn">+</button><div class="semDia"></div></div>
+            <div class="dia"><button class="diaBtn">+</button><div class="semDia"></div></div>
+            <div class="dia"><button class="diaBtn">+</button><div class="semDia"></div></div>
+            <div class="dia"><button class="diaBtn">+</button><div class="semDia"></div></div>
+            <div class="dia"><button class="diaBtn">+</button><div class="semDia"></div></div>
+            <div class="dia"><button class="diaBtn">+</button><div class="semDia"></div></div>
+        </div>
     </main>
     <br>
     <footer>
         <p>Criado por <a class="link" href="https://github.com/KaneeSell" title="GitHub">Kanee Sell</a></p>
     </footer>
 </body>
-<script src="./validador.js"></script>
+<script src="./calendario.js"></script>
 </html>
