@@ -1,4 +1,4 @@
-# 
-Link para a página: https://kaneesell.github.io/Funcionalidades
+# Funcionalidades
+[Ir para Funcionalidades](https://kaneesell.github.io/Funcionalidades)
 
 
